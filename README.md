@@ -6,7 +6,7 @@ A clean, minimal, and fully responsive developer portfolio website built using *
 
 ## 🚀 Live Demo
 
-🔗 [View Live Site]([https://your-portfolio-link.vercel.app](https://shaficul-islam-shanto.netlify.app/))
+🔗 [View Live Site]((https://shaficul-islam-shanto.netlify.app/))
 
 ---
 
