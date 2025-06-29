@@ -1,12 +1,87 @@
-# React + Vite
+# 🧑‍💻 Shaficul Islam Shanto - Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, minimal, and fully responsive developer portfolio website built using **React**, **Tailwind CSS**, and **Framer Motion**. It showcases my skills, projects, contact info, and more — perfect for potential clients, employers, or collaborators.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🔗 [View Live Site]([https://your-portfolio-link.vercel.app](https://shaficul-islam-shanto.netlify.app/))
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Features
+
+- 💼 Hero section with name, photo, and social links
+- 📄 Resume button (clickable, disabled if resume not added)
+- 🧑‍💻 About Me section with journey, interests, and hobbies
+- 🛠️ Skillset section with icons and animation
+- 🎓 Educational qualifications
+- 📂 Project showcase (dynamic cards + detailed view)
+- 📬 Contact information (email, phone, WhatsApp)
+- 🦶 Footer with social links
+- 📱 Fully responsive for all devices
+- 🎨 Smooth animations with Framer Motion
+
+---
+
+## 📷 Screenshots
+
+> Add screenshots here using:
+> 
+> ```md
+> ![Screenshot](./screens/home.png)
+> ```
+
+---
+
+## 🧪 Tech Stack
+
+- ⚛️ **React**
+- 🎨 **Tailwind CSS**
+- 🎞️ **Framer Motion**
+- 📦 **React Router**
+- 📁 **Local JSON data** (for projects/education)
+
+---
+
+## 🔧 Installation
+
+Clone the repo and run it locally:
+
+```bash
+git clone https://github.com/yourusername/portfolio-react.git
+cd portfolio-react
+npm install
+npm run dev
+Make sure vite is installed globally or use npm create vite@latest.
+📁  Folder Structure
+src/
+├── assets/              # Images
+├── components/          # All sections (Hero, About, Skills, etc.)
+├── App.jsx              # Main app layout
+└── main.jsx             # Entry point
+
+📝  Customization
+Profile Photo → src/assets/profile.png
+
+Project Images → src/assets/project1.jpg etc.
+
+Update projectData in Projects.jsx or a separate data.js file
+
+Social Links & Contact Info → Hero.jsx, Contact.jsx, Footer.jsx
+
+🌐 Deployment
+You can deploy using Vercel or Netlify:
+
+Push your code to GitHub
+
+Import the repo into Vercel/Netlify
+
+Build Command: npm run build
+
+Output Folder: dist
+
+🙌 Credits
+Built with ❤️ by Shaficul Islam Shanto
+Inspired by modern portfolio design principles and minimal UI aesthetics.
